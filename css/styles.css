@@ -565,6 +565,7 @@ a.free:hover {
   .section-title {
     font-size: 5vmax;
     max-width: 100%;
+    color: red;
   }
 
   .section-text {
