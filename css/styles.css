@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -68,11 +68,11 @@ button {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .logo {
@@ -87,8 +87,8 @@ button {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .menu_item {
@@ -125,8 +125,8 @@ button {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 7.299%;
 }
 
@@ -188,8 +188,8 @@ a.free:hover {
 .service {
   position: relative;
   -webkit-transform: translateY(-100px);
-      -ms-transform: translateY(-100px);
-          transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  transform: translateY(-100px);
   z-index: 1;
   overflow: hidden;
 }
@@ -215,13 +215,13 @@ a.free:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   padding: 130px 0 118px;
 }
 
@@ -294,13 +294,13 @@ a.free:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .section-title {
@@ -385,10 +385,10 @@ a.free:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
@@ -450,11 +450,11 @@ a.free:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .nav-wrapper-mobile {
@@ -467,8 +467,8 @@ a.free:hover {
     background: rgba(0, 0, 0, 0.97);
     z-index: 22;
     -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
     opacity: 0;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -477,12 +477,12 @@ a.free:hover {
 
   .open.nav-wrapper-mobile {
     -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
 
-  .mob-scroll-box{
+  .mob-scroll-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -505,27 +505,27 @@ a.free:hover {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 40px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 10px;
     padding-bottom: 40px;
     text-align: center;
     -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
     margin: auto;
   }
   .menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .menu_item,
@@ -542,8 +542,8 @@ a.free:hover {
   .user-login {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   /* END MOB-MENU */
@@ -565,7 +565,6 @@ a.free:hover {
   .section-title {
     font-size: 5vmax;
     max-width: 100%;
-    color: red;
   }
 
   .section-text {
@@ -596,8 +595,14 @@ a.free:hover {
   }
   .card-text::after {
     margin-top: 16px;
-    background-position: left;
     margin-left: auto;
     margin-right: auto;
+  }
+  .card-text {
+    font-size: 1em;
+  }
+
+  .section-text {
+    font-size: 1.1em;
   }
 }
