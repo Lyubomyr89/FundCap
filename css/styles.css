@@ -303,7 +303,7 @@ a.free:hover {
   }
   
   .nav-wrapper {
-    margin-bottom: 18vmax;;
+    margin-bottom: 13vmax;
   }
 
   .title {
@@ -412,10 +412,6 @@ a.free:hover {
   }
 
   .nav-wrapper-mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     left: 0;
     top: 0;
@@ -432,6 +428,17 @@ a.free:hover {
   .open.nav-wrapper-mobile {
     transform: scale(1);
     opacity: 1;
+  }
+
+  .mob-scroll-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    max-height: calc(100vh - 110px);
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .logo {
